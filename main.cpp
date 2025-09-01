@@ -8,7 +8,7 @@ const char* password = "";          // No password for Wokwi-GUEST
 
 // ================= Telegram Bot Settings =================
 String BOTtoken = "8294174398:AAFnaZYAedZdHqhhuCKnZXvHyBVPSYKb1Ko"; 
-String CHAT_ID  = "1891910582"; 
+String CHAT_ID  = "8093434094"; 
 
 // ================= Sensors & Actuators =================
 #define PIR_PIN   13  // PIR Sensor OUT -> GPIO13
@@ -106,4 +106,5 @@ void loop() {
     triggerAlarm();
     lastSoundTime = now;
   }
+
 }
