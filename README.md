@@ -46,8 +46,3 @@ Our system ensures real-time intrusion detection with multi-sensor accuracy and 
    - Stop buzzer    
 
 ---
-
-##  Circuit Diagram
-*(Upload your circuit diagram image here and link it)*  
-```markdown
-![Circuit Diagram](circuit.png)
