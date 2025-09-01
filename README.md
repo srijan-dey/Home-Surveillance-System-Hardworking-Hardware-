@@ -11,8 +11,7 @@ Our system ensures real-time intrusion detection with multi-sensor accuracy and 
 -  Capture intruder images/videos with ESP32-CAM  
 -  Detect motion using PIR sensor and unusual sounds with a mic  
 -  On-site buzzer alarm for immediate warning  
--  Instant Telegram Bot notifications with intruder photo/video  
--  Auto-dial to nearest police station via GSM module (SIM800L/SIM900A)  
+-  Instant Telegram Bot notifications with intruder photo/video    
 -  Works without Wi-Fi (thanks to GSM fallback)  
 -  Multi-sensor detection (motion + sound + image) reduces false alarms  
 
@@ -21,11 +20,8 @@ Our system ensures real-time intrusion detection with multi-sensor accuracy and 
 ##  Hardware Used
 - ESP32-CAM (AI Thinker)  
 - ESP32 DevKit V1  
-- PIR Sensor (HC-SR501)  
-- Ultrasonic Sensor (HC-SR04)  
-- KY-038 Sound Sensor Module (Mic)  
-- RC522 RFID Module  
-- R307 Fingerprint Sensor  
+- PIR Sensor (HC-SR501)    
+- KY-038 Sound Sensor Module (Mic)    
 - GSM Module (SIM800L / SIM900A)  
 - Buzzer + Power Supply  
 
@@ -45,10 +41,9 @@ Our system ensures real-time intrusion detection with multi-sensor accuracy and 
 3. ESP32 triggers buzzer alarm at the site.  
 4. Alerts sent instantly via:  
    -  Telegram Bot (with images, videos, and options).  
-   -  GSM module makes a direct call to the pre-stored police station number.  
+   -  GSM module works without internet sending via sms 
 5. Admin can control the system via Telegram Bot options:  
-   - Stop buzzer  
-   - Call police  
+   - Stop buzzer    
 
 ---
 
